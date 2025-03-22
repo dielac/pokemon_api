@@ -1,0 +1,73 @@
+/* body makign the actual website look nice */
+body {
+    text-align: center;                 /* Center all content on the page and gave some extra space  */
+    margin: 50px;                      
+    background-color: red;              
+    color: white;                       
+}
+
+
+h1 {
+    color: white;                       
+    margin-bottom: 20px;  
+}              
+
+/* styling for entering Pokémon name or ID */
+input[type="text"] {
+    padding: 12px;                     
+    margin: 12px;                       
+    border: 2px solid #eadddd;             
+    border-radius: 5px;                 
+    width: 320px;                      
+    background-color: white;            
+    color: black;                       
+}
+
+/* Search button styling - bold and clickable */
+button {
+    padding: 12px 24px;                 
+    margin: 12px;                       
+    background-color: #ff6f61;          
+    color: rgb(199, 197, 197);                       
+    border: none;                       
+    border-radius: 8px;                
+   
+}
+
+/* Button hover effect made it a little darker  */
+button:hover {
+    background-color: #e05a50;          
+}
+
+
+.pokemon-container {
+    margin-top: 30px;                   
+    display: flex;                      
+    justify-content: center;           
+    flex-wrap: wrap;                   
+    gap: 15px;                          
+}
+
+/* Styling for the Pokémon card */
+.pokemon-card {
+    padding: 20px;                     
+    margin: 10px;                       
+    border: 1px solid #ddd;             
+    border-radius: 12px;               
+    background-color: white;           
+    color: black;                      
+  
+}
+
+/* Pokémon image styling  */
+img {
+    max-width: 160px;                   
+    margin: 12px;                      
+}
+
+/* Error message styling */
+.error {
+    color: rgb(249, 249, 241);                     
+    font-weight: bold;                  
+    margin: 20px;                      
+}

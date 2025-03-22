@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    <!-- encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <!-- Responsive design -->
+    <title>Pokémon Search</title>   
+    <link rel="stylesheet" href="styles.css">    <!-- Links external CSS file -->
+</head>
+
+<body>
+    <h1>Pokémon Search</h1>    <!-- Main heading -->
+    <!-- Pokémon name or ID -->
+    <input type="text" id="js-pokemonInput" placeholder="Enter Pokémon name or ID" onkeydown="handleKeyDown(event)">    
+    <!-- Search button to fetchPokemon() -->
+    <button onclick="fetchPokemon()">Search</button>    
+    <!--displaying Pokémon info -->
+    <div class="pokemon-container" id="js-pokemonContainer"></div>
+
+    <!-- Linking  JavaScript file -->
+    <script src="pokemon.js"></script>
+</body>
+</html>
